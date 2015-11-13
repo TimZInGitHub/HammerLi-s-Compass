@@ -1,0 +1,55 @@
+//
+//  PrefixHeader.pch
+//  ZYH-百思不得姐001
+//
+//  Created by Tim.Z on 15/11/5.
+//  Copyright © 2015年 Tim.Z. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/*** 如果希望某些内容能拷贝到任何源代码文件(OC\C\C++等), 那么就不要写在#ifdef __OBJC__和#endif之间 ***/
+
+
+/***** 在#ifdef __OBJC__和#endif之间的内容, 只会拷贝到OC源代码文件中, 不会拷贝到其他语言的源代码文件中 *****/
+#ifdef __OBJC__
+
+#import "UIBarButtonItem+TZExtension.h"
+#import "UINavigationItem+TZExtension.h"
+#import "UITabBarItem+TZExtension.h"
+#import "UIView+TZCoordinateExtension.h"
+#import "UITextField+TZExtension.h"
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#import"Masonry.h"
+
+/*** 日志 ***/
+#ifdef DEBUG
+#define TZLog(...) NSLog(__VA_ARGS__)
+
+#define TZFUNC TZLog(@"%s",__func__);
+
+#else
+#define TZLog(...)
+
+
+
+#endif
+
+/*** 颜色 ***/
+#define TZColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define TZColor(r, g, b) TZColorA((r), (g), (b), 255)
+#define TZRandomColor TZColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define TZGrayColor(v) TZColor((v),(v),(v))
+#define TZCommonBackgroundColor TZGrayColor(206)
+
+
+
+#endif
+/***** 在#ifdef __OBJC__和#endif之间的内容, 只会拷贝到OC源代码文件中, 不会拷贝到其他语言的源代码文件中 *****/
+
+#endif
+

@@ -9,12 +9,32 @@
 /* Begin PBXBuildFile section */
 		221FC9EA1BF578620052F0B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FC9E91BF578620052F0B9 /* main.m */; };
 		221FC9ED1BF578620052F0B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FC9EC1BF578620052F0B9 /* AppDelegate.m */; };
-		221FC9F01BF578620052F0B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FC9EF1BF578620052F0B9 /* ViewController.m */; };
-		221FC9F31BF578620052F0B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221FC9F11BF578620052F0B9 /* Main.storyboard */; };
 		221FC9F51BF578620052F0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221FC9F41BF578620052F0B9 /* Assets.xcassets */; };
 		221FC9F81BF578620052F0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221FC9F61BF578620052F0B9 /* LaunchScreen.storyboard */; };
 		221FCA031BF578620052F0B9 /* HammerLi_s_CompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA021BF578620052F0B9 /* HammerLi_s_CompassTests.m */; };
 		221FCA0E1BF578620052F0B9 /* HammerLi_s_CompassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA0D1BF578620052F0B9 /* HammerLi_s_CompassUITests.m */; };
+		221FCA1F1BF57A510052F0B9 /* TZMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA1E1BF57A510052F0B9 /* TZMotionManager.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA231BF57F000052F0B9 /* TZUnderIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA221BF57F000052F0B9 /* TZUnderIndicatorView.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA371BF5AAED0052F0B9 /* UIBarButtonItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA2E1BF5AAEC0052F0B9 /* UIBarButtonItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA381BF5AAED0052F0B9 /* UINavigationItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA301BF5AAEC0052F0B9 /* UINavigationItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA391BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA321BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA3A1BF5AAED0052F0B9 /* UITextField+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA341BF5AAED0052F0B9 /* UITextField+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA3B1BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA361BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA3F1BF5AB7A0052F0B9 /* TZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA3E1BF5AB7A0052F0B9 /* TZTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA431BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA411BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA481BF5B7310052F0B9 /* TZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA461BF5B7310052F0B9 /* TZMainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		221FCAB51BF5CCD50052F0B9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221FCA9B1BF5CCD50052F0B9 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		221FCAB61BF5CCD50052F0B9 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA9D1BF5CCD50052F0B9 /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		221FCAB71BF5CCD50052F0B9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA01BF5CCD50052F0B9 /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		221FCAB81BF5CCD50052F0B9 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA21BF5CCD50052F0B9 /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
+		221FCAB91BF5CCD50052F0B9 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA41BF5CCD50052F0B9 /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		221FCABA1BF5CCD50052F0B9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA81BF5CCD50052F0B9 /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
+		221FCABB1BF5CCD50052F0B9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAA1BF5CCD50052F0B9 /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		221FCABC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		221FCABD1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAF1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		221FCABE1BF5CCD50052F0B9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAB11BF5CCD50052F0B9 /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		221FCABF1BF5CCD50052F0B9 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAB41BF5CCD50052F0B9 /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		224D098B1BF5D8FE00F36F1C /* TZNeedleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224D098A1BF5D8FE00F36F1C /* TZNeedleView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +59,6 @@
 		221FC9E91BF578620052F0B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		221FC9EB1BF578620052F0B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		221FC9EC1BF578620052F0B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		221FC9EE1BF578620052F0B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		221FC9EF1BF578620052F0B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		221FC9F21BF578620052F0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		221FC9F41BF578620052F0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221FC9F71BF578620052F0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221FC9F91BF578620052F0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +68,56 @@
 		221FCA091BF578620052F0B9 /* HammerLi's CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HammerLi's CompassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		221FCA0D1BF578620052F0B9 /* HammerLi_s_CompassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HammerLi_s_CompassUITests.m; sourceTree = "<group>"; };
 		221FCA0F1BF578620052F0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221FCA1B1BF579660052F0B9 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		221FCA1D1BF57A510052F0B9 /* TZMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMotionManager.h; sourceTree = "<group>"; };
+		221FCA1E1BF57A510052F0B9 /* TZMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMotionManager.m; sourceTree = "<group>"; };
+		221FCA211BF57F000052F0B9 /* TZUnderIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZUnderIndicatorView.h; sourceTree = "<group>"; };
+		221FCA221BF57F000052F0B9 /* TZUnderIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZUnderIndicatorView.m; sourceTree = "<group>"; };
+		221FCA2D1BF5AAEC0052F0B9 /* UIBarButtonItem+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TZExtension.h"; sourceTree = "<group>"; };
+		221FCA2E1BF5AAEC0052F0B9 /* UIBarButtonItem+TZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TZExtension.m"; sourceTree = "<group>"; };
+		221FCA2F1BF5AAEC0052F0B9 /* UINavigationItem+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+TZExtension.h"; sourceTree = "<group>"; };
+		221FCA301BF5AAEC0052F0B9 /* UINavigationItem+TZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+TZExtension.m"; sourceTree = "<group>"; };
+		221FCA311BF5AAED0052F0B9 /* UITabBarItem+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+TZExtension.h"; sourceTree = "<group>"; };
+		221FCA321BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+TZExtension.m"; sourceTree = "<group>"; };
+		221FCA331BF5AAED0052F0B9 /* UITextField+TZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TZExtension.h"; sourceTree = "<group>"; };
+		221FCA341BF5AAED0052F0B9 /* UITextField+TZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TZExtension.m"; sourceTree = "<group>"; };
+		221FCA351BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TZCoordinateExtension.h"; sourceTree = "<group>"; };
+		221FCA361BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TZCoordinateExtension.m"; sourceTree = "<group>"; };
+		221FCA3C1BF5AAFE0052F0B9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		221FCA3D1BF5AB7A0052F0B9 /* TZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTabBar.h; sourceTree = "<group>"; };
+		221FCA3E1BF5AB7A0052F0B9 /* TZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTabBar.m; sourceTree = "<group>"; };
+		221FCA401BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTraditionalCompassViewController.h; sourceTree = "<group>"; };
+		221FCA411BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTraditionalCompassViewController.m; sourceTree = "<group>"; };
+		221FCA451BF5B7310052F0B9 /* TZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainViewController.h; sourceTree = "<group>"; };
+		221FCA461BF5B7310052F0B9 /* TZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainViewController.m; sourceTree = "<group>"; };
+		221FCA9B1BF5CCD50052F0B9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221FCA9C1BF5CCD50052F0B9 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		221FCA9D1BF5CCD50052F0B9 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		221FCA9E1BF5CCD50052F0B9 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		221FCA9F1BF5CCD50052F0B9 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		221FCAA01BF5CCD50052F0B9 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		221FCAA11BF5CCD50052F0B9 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		221FCAA21BF5CCD50052F0B9 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		221FCAA31BF5CCD50052F0B9 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		221FCAA41BF5CCD50052F0B9 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		221FCAA51BF5CCD50052F0B9 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		221FCAA61BF5CCD50052F0B9 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		221FCAA71BF5CCD50052F0B9 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		221FCAA81BF5CCD50052F0B9 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		221FCAA91BF5CCD50052F0B9 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		221FCAAA1BF5CCD50052F0B9 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		221FCAAB1BF5CCD50052F0B9 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		221FCAAC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		221FCAAD1BF5CCD50052F0B9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		221FCAAE1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		221FCAAF1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		221FCAB01BF5CCD50052F0B9 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		221FCAB11BF5CCD50052F0B9 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		221FCAB21BF5CCD50052F0B9 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		221FCAB31BF5CCD50052F0B9 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		221FCAB41BF5CCD50052F0B9 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		224D09891BF5D8FE00F36F1C /* TZNeedleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZNeedleView.h; sourceTree = "<group>"; };
+		224D098A1BF5D8FE00F36F1C /* TZNeedleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZNeedleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +168,17 @@
 		221FC9E71BF578610052F0B9 /* HammerLi's Compass */ = {
 			isa = PBXGroup;
 			children = (
+				221FCA2C1BF5AAEC0052F0B9 /* Category */,
+				221FCA1C1BF579EB0052F0B9 /* Model */,
+				221FCA201BF57ED10052F0B9 /* View */,
 				221FC9EB1BF578620052F0B9 /* AppDelegate.h */,
 				221FC9EC1BF578620052F0B9 /* AppDelegate.m */,
-				221FC9EE1BF578620052F0B9 /* ViewController.h */,
-				221FC9EF1BF578620052F0B9 /* ViewController.m */,
-				221FC9F11BF578620052F0B9 /* Main.storyboard */,
+				221FCA451BF5B7310052F0B9 /* TZMainViewController.h */,
+				221FCA461BF5B7310052F0B9 /* TZMainViewController.m */,
+				221FCA401BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.h */,
+				221FCA411BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m */,
+				221FCA3D1BF5AB7A0052F0B9 /* TZTabBar.h */,
+				221FCA3E1BF5AB7A0052F0B9 /* TZTabBar.m */,
 				221FC9F41BF578620052F0B9 /* Assets.xcassets */,
 				221FC9F61BF578620052F0B9 /* LaunchScreen.storyboard */,
 				221FC9F91BF578620052F0B9 /* Info.plist */,
@@ -117,7 +190,10 @@
 		221FC9E81BF578610052F0B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				221FCA9A1BF5CCD50052F0B9 /* Masonry */,
+				221FCA3C1BF5AAFE0052F0B9 /* PrefixHeader.pch */,
 				221FC9E91BF578620052F0B9 /* main.m */,
+				221FCA1B1BF579660052F0B9 /* Singleton.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +214,76 @@
 				221FCA0F1BF578620052F0B9 /* Info.plist */,
 			);
 			path = "HammerLi's CompassUITests";
+			sourceTree = "<group>";
+		};
+		221FCA1C1BF579EB0052F0B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				221FCA1D1BF57A510052F0B9 /* TZMotionManager.h */,
+				221FCA1E1BF57A510052F0B9 /* TZMotionManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		221FCA201BF57ED10052F0B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				221FCA211BF57F000052F0B9 /* TZUnderIndicatorView.h */,
+				221FCA221BF57F000052F0B9 /* TZUnderIndicatorView.m */,
+				224D09891BF5D8FE00F36F1C /* TZNeedleView.h */,
+				224D098A1BF5D8FE00F36F1C /* TZNeedleView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		221FCA2C1BF5AAEC0052F0B9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				221FCA2D1BF5AAEC0052F0B9 /* UIBarButtonItem+TZExtension.h */,
+				221FCA2E1BF5AAEC0052F0B9 /* UIBarButtonItem+TZExtension.m */,
+				221FCA2F1BF5AAEC0052F0B9 /* UINavigationItem+TZExtension.h */,
+				221FCA301BF5AAEC0052F0B9 /* UINavigationItem+TZExtension.m */,
+				221FCA311BF5AAED0052F0B9 /* UITabBarItem+TZExtension.h */,
+				221FCA321BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m */,
+				221FCA331BF5AAED0052F0B9 /* UITextField+TZExtension.h */,
+				221FCA341BF5AAED0052F0B9 /* UITextField+TZExtension.m */,
+				221FCA351BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.h */,
+				221FCA361BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		221FCA9A1BF5CCD50052F0B9 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				221FCA9B1BF5CCD50052F0B9 /* Info.plist */,
+				221FCA9C1BF5CCD50052F0B9 /* MASCompositeConstraint.h */,
+				221FCA9D1BF5CCD50052F0B9 /* MASCompositeConstraint.m */,
+				221FCA9E1BF5CCD50052F0B9 /* MASConstraint+Private.h */,
+				221FCA9F1BF5CCD50052F0B9 /* MASConstraint.h */,
+				221FCAA01BF5CCD50052F0B9 /* MASConstraint.m */,
+				221FCAA11BF5CCD50052F0B9 /* MASConstraintMaker.h */,
+				221FCAA21BF5CCD50052F0B9 /* MASConstraintMaker.m */,
+				221FCAA31BF5CCD50052F0B9 /* MASLayoutConstraint.h */,
+				221FCAA41BF5CCD50052F0B9 /* MASLayoutConstraint.m */,
+				221FCAA51BF5CCD50052F0B9 /* Masonry.h */,
+				221FCAA61BF5CCD50052F0B9 /* MASUtilities.h */,
+				221FCAA71BF5CCD50052F0B9 /* MASViewAttribute.h */,
+				221FCAA81BF5CCD50052F0B9 /* MASViewAttribute.m */,
+				221FCAA91BF5CCD50052F0B9 /* MASViewConstraint.h */,
+				221FCAAA1BF5CCD50052F0B9 /* MASViewConstraint.m */,
+				221FCAAB1BF5CCD50052F0B9 /* NSArray+MASAdditions.h */,
+				221FCAAC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m */,
+				221FCAAD1BF5CCD50052F0B9 /* NSArray+MASShorthandAdditions.h */,
+				221FCAAE1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				221FCAAF1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				221FCAB01BF5CCD50052F0B9 /* View+MASAdditions.h */,
+				221FCAB11BF5CCD50052F0B9 /* View+MASAdditions.m */,
+				221FCAB21BF5CCD50052F0B9 /* View+MASShorthandAdditions.h */,
+				221FCAB31BF5CCD50052F0B9 /* ViewController+MASAdditions.h */,
+				221FCAB41BF5CCD50052F0B9 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +348,7 @@
 		221FC9DD1BF578610052F0B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TZ;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Tim.Z;
 				TargetAttributes = {
@@ -245,7 +392,7 @@
 			files = (
 				221FC9F81BF578620052F0B9 /* LaunchScreen.storyboard in Resources */,
 				221FC9F51BF578620052F0B9 /* Assets.xcassets in Resources */,
-				221FC9F31BF578620052F0B9 /* Main.storyboard in Resources */,
+				221FCAB51BF5CCD50052F0B9 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +417,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221FC9F01BF578620052F0B9 /* ViewController.m in Sources */,
+				221FCA391BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m in Sources */,
+				221FCABC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m in Sources */,
 				221FC9ED1BF578620052F0B9 /* AppDelegate.m in Sources */,
+				221FCABD1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				221FC9EA1BF578620052F0B9 /* main.m in Sources */,
+				221FCA3B1BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m in Sources */,
+				221FCABA1BF5CCD50052F0B9 /* MASViewAttribute.m in Sources */,
+				221FCAB91BF5CCD50052F0B9 /* MASLayoutConstraint.m in Sources */,
+				221FCAB61BF5CCD50052F0B9 /* MASCompositeConstraint.m in Sources */,
+				221FCA231BF57F000052F0B9 /* TZUnderIndicatorView.m in Sources */,
+				221FCA381BF5AAED0052F0B9 /* UINavigationItem+TZExtension.m in Sources */,
+				221FCABB1BF5CCD50052F0B9 /* MASViewConstraint.m in Sources */,
+				221FCA3F1BF5AB7A0052F0B9 /* TZTabBar.m in Sources */,
+				221FCA1F1BF57A510052F0B9 /* TZMotionManager.m in Sources */,
+				224D098B1BF5D8FE00F36F1C /* TZNeedleView.m in Sources */,
+				221FCA431BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m in Sources */,
+				221FCA3A1BF5AAED0052F0B9 /* UITextField+TZExtension.m in Sources */,
+				221FCABF1BF5CCD50052F0B9 /* ViewController+MASAdditions.m in Sources */,
+				221FCAB81BF5CCD50052F0B9 /* MASConstraintMaker.m in Sources */,
+				221FCA371BF5AAED0052F0B9 /* UIBarButtonItem+TZExtension.m in Sources */,
+				221FCAB71BF5CCD50052F0B9 /* MASConstraint.m in Sources */,
+				221FCA481BF5B7310052F0B9 /* TZMainViewController.m in Sources */,
+				221FCABE1BF5CCD50052F0B9 /* View+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +475,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		221FC9F11BF578620052F0B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				221FC9F21BF578620052F0B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		221FC9F61BF578620052F0B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HammerLi's Compass/PrefixHeader.pch";
 				INFOPLIST_FILE = "HammerLi's Compass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TimZInGitHub.HammerLi-s-Compass";
@@ -424,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HammerLi's Compass/PrefixHeader.pch";
 				INFOPLIST_FILE = "HammerLi's Compass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TimZInGitHub.HammerLi-s-Compass";
@@ -498,6 +659,7 @@
 				221FCA141BF578620052F0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221FCA151BF578620052F0B9 /* Build configuration list for PBXNativeTarget "HammerLi's CompassTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +668,7 @@
 				221FCA171BF578620052F0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221FCA181BF578620052F0B9 /* Build configuration list for PBXNativeTarget "HammerLi's CompassUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +677,7 @@
 				221FCA1A1BF578620052F0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
