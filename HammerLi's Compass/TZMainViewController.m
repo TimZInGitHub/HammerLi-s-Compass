@@ -9,6 +9,7 @@
 #import "TZMainViewController.h"
 #import "TZTraditionalCompassViewController.h"
 #import "TZTabBar.h"
+#import "TZGeographyCompassViewController.h"
 
 @interface TZMainViewController ()
 
@@ -43,6 +44,10 @@
     traditionCompassVC.tabBarItem.tzTitle(@"Tradition");
     
     [self addChildViewController:traditionCompassVC];
+    
+    TZGeographyCompassViewController *geographyCompassVC = [[TZGeographyCompassViewController alloc] init];
+    geographyCompassVC.tabBarItem.tzTitle(@"Geography");
+    [self addChildViewController:geographyCompassVC];
 }
 
 - (void)setUpTabBar

@@ -13,28 +13,30 @@
 		221FC9F81BF578620052F0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221FC9F61BF578620052F0B9 /* LaunchScreen.storyboard */; };
 		221FCA031BF578620052F0B9 /* HammerLi_s_CompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA021BF578620052F0B9 /* HammerLi_s_CompassTests.m */; };
 		221FCA0E1BF578620052F0B9 /* HammerLi_s_CompassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA0D1BF578620052F0B9 /* HammerLi_s_CompassUITests.m */; };
-		221FCA1F1BF57A510052F0B9 /* TZMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA1E1BF57A510052F0B9 /* TZMotionManager.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA231BF57F000052F0B9 /* TZUnderIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA221BF57F000052F0B9 /* TZUnderIndicatorView.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA371BF5AAED0052F0B9 /* UIBarButtonItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA2E1BF5AAEC0052F0B9 /* UIBarButtonItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA381BF5AAED0052F0B9 /* UINavigationItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA301BF5AAEC0052F0B9 /* UINavigationItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA391BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA321BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA3A1BF5AAED0052F0B9 /* UITextField+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA341BF5AAED0052F0B9 /* UITextField+TZExtension.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA3B1BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA361BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA3F1BF5AB7A0052F0B9 /* TZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA3E1BF5AB7A0052F0B9 /* TZTabBar.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA431BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA411BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m */; settings = {ASSET_TAGS = (); }; };
-		221FCA481BF5B7310052F0B9 /* TZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA461BF5B7310052F0B9 /* TZMainViewController.m */; settings = {ASSET_TAGS = (); }; };
-		221FCAB51BF5CCD50052F0B9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221FCA9B1BF5CCD50052F0B9 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		221FCAB61BF5CCD50052F0B9 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA9D1BF5CCD50052F0B9 /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		221FCAB71BF5CCD50052F0B9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA01BF5CCD50052F0B9 /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		221FCAB81BF5CCD50052F0B9 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA21BF5CCD50052F0B9 /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
-		221FCAB91BF5CCD50052F0B9 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA41BF5CCD50052F0B9 /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		221FCABA1BF5CCD50052F0B9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA81BF5CCD50052F0B9 /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
-		221FCABB1BF5CCD50052F0B9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAA1BF5CCD50052F0B9 /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		221FCABC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		221FCABD1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAF1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		221FCABE1BF5CCD50052F0B9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAB11BF5CCD50052F0B9 /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		221FCABF1BF5CCD50052F0B9 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAB41BF5CCD50052F0B9 /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		224D098B1BF5D8FE00F36F1C /* TZNeedleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224D098A1BF5D8FE00F36F1C /* TZNeedleView.m */; settings = {ASSET_TAGS = (); }; };
+		221FCA1F1BF57A510052F0B9 /* TZMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA1E1BF57A510052F0B9 /* TZMotionManager.m */; };
+		221FCA231BF57F000052F0B9 /* TZUnderIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA221BF57F000052F0B9 /* TZUnderIndicatorView.m */; };
+		221FCA371BF5AAED0052F0B9 /* UIBarButtonItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA2E1BF5AAEC0052F0B9 /* UIBarButtonItem+TZExtension.m */; };
+		221FCA381BF5AAED0052F0B9 /* UINavigationItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA301BF5AAEC0052F0B9 /* UINavigationItem+TZExtension.m */; };
+		221FCA391BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA321BF5AAED0052F0B9 /* UITabBarItem+TZExtension.m */; };
+		221FCA3A1BF5AAED0052F0B9 /* UITextField+TZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA341BF5AAED0052F0B9 /* UITextField+TZExtension.m */; };
+		221FCA3B1BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA361BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m */; };
+		221FCA3F1BF5AB7A0052F0B9 /* TZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA3E1BF5AB7A0052F0B9 /* TZTabBar.m */; };
+		221FCA431BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA411BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m */; };
+		221FCA481BF5B7310052F0B9 /* TZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA461BF5B7310052F0B9 /* TZMainViewController.m */; };
+		221FCAB51BF5CCD50052F0B9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221FCA9B1BF5CCD50052F0B9 /* Info.plist */; };
+		221FCAB61BF5CCD50052F0B9 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCA9D1BF5CCD50052F0B9 /* MASCompositeConstraint.m */; };
+		221FCAB71BF5CCD50052F0B9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA01BF5CCD50052F0B9 /* MASConstraint.m */; };
+		221FCAB81BF5CCD50052F0B9 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA21BF5CCD50052F0B9 /* MASConstraintMaker.m */; };
+		221FCAB91BF5CCD50052F0B9 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA41BF5CCD50052F0B9 /* MASLayoutConstraint.m */; };
+		221FCABA1BF5CCD50052F0B9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAA81BF5CCD50052F0B9 /* MASViewAttribute.m */; };
+		221FCABB1BF5CCD50052F0B9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAA1BF5CCD50052F0B9 /* MASViewConstraint.m */; };
+		221FCABC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAC1BF5CCD50052F0B9 /* NSArray+MASAdditions.m */; };
+		221FCABD1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAAF1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		221FCABE1BF5CCD50052F0B9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAB11BF5CCD50052F0B9 /* View+MASAdditions.m */; };
+		221FCABF1BF5CCD50052F0B9 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221FCAB41BF5CCD50052F0B9 /* ViewController+MASAdditions.m */; };
+		224D098B1BF5D8FE00F36F1C /* TZNeedleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224D098A1BF5D8FE00F36F1C /* TZNeedleView.m */; };
+		22D05AFF1BF5F61300688A69 /* TZGeographyCompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D05AFD1BF5F61300688A69 /* TZGeographyCompassViewController.m */; };
+		22D05B001BF5F61300688A69 /* TZGeographyCompassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D05AFE1BF5F61300688A69 /* TZGeographyCompassViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,9 @@
 		221FCAB41BF5CCD50052F0B9 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		224D09891BF5D8FE00F36F1C /* TZNeedleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZNeedleView.h; sourceTree = "<group>"; };
 		224D098A1BF5D8FE00F36F1C /* TZNeedleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZNeedleView.m; sourceTree = "<group>"; };
+		22D05AFC1BF5F61300688A69 /* TZGeographyCompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGeographyCompassViewController.h; sourceTree = "<group>"; };
+		22D05AFD1BF5F61300688A69 /* TZGeographyCompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGeographyCompassViewController.m; sourceTree = "<group>"; };
+		22D05AFE1BF5F61300688A69 /* TZGeographyCompassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZGeographyCompassViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +182,9 @@
 				221FCA461BF5B7310052F0B9 /* TZMainViewController.m */,
 				221FCA401BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.h */,
 				221FCA411BF5AE8C0052F0B9 /* TZTraditionalCompassViewController.m */,
+				22D05AFC1BF5F61300688A69 /* TZGeographyCompassViewController.h */,
+				22D05AFD1BF5F61300688A69 /* TZGeographyCompassViewController.m */,
+				22D05AFE1BF5F61300688A69 /* TZGeographyCompassViewController.xib */,
 				221FCA3D1BF5AB7A0052F0B9 /* TZTabBar.h */,
 				221FCA3E1BF5AB7A0052F0B9 /* TZTabBar.m */,
 				221FC9F41BF578620052F0B9 /* Assets.xcassets */,
@@ -354,6 +362,7 @@
 				TargetAttributes = {
 					221FC9E41BF578610052F0B9 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FLWEX27YZJ;
 					};
 					221FC9FD1BF578620052F0B9 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -392,6 +401,7 @@
 			files = (
 				221FC9F81BF578620052F0B9 /* LaunchScreen.storyboard in Resources */,
 				221FC9F51BF578620052F0B9 /* Assets.xcassets in Resources */,
+				22D05B001BF5F61300688A69 /* TZGeographyCompassViewController.xib in Resources */,
 				221FCAB51BF5CCD50052F0B9 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +433,7 @@
 				221FCABD1BF5CCD50052F0B9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				221FC9EA1BF578620052F0B9 /* main.m in Sources */,
 				221FCA3B1BF5AAED0052F0B9 /* UIView+TZCoordinateExtension.m in Sources */,
+				22D05AFF1BF5F61300688A69 /* TZGeographyCompassViewController.m in Sources */,
 				221FCABA1BF5CCD50052F0B9 /* MASViewAttribute.m in Sources */,
 				221FCAB91BF5CCD50052F0B9 /* MASLayoutConstraint.m in Sources */,
 				221FCAB61BF5CCD50052F0B9 /* MASCompositeConstraint.m in Sources */,
@@ -572,11 +583,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HammerLi's Compass/PrefixHeader.pch";
 				INFOPLIST_FILE = "HammerLi's Compass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TimZInGitHub.HammerLi-s-Compass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -584,11 +598,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HammerLi's Compass/PrefixHeader.pch";
 				INFOPLIST_FILE = "HammerLi's Compass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TimZInGitHub.HammerLi-s-Compass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
