@@ -23,6 +23,8 @@
     [self setUpChildViewController];
     [self setUpTabBar];
     [self setUpItemTitleAttributes];
+    
+    [self setSelectedIndex:0];
 }
 
 - (void)setUpItemTitleAttributes
@@ -42,12 +44,11 @@
 {
     TZTraditionalCompassViewController *traditionCompassVC = [[TZTraditionalCompassViewController alloc] init];
     traditionCompassVC.tabBarItem.tzTitle(@"Tradition");
-    
     [self addChildViewController:traditionCompassVC];
     
     TZGeographyCompassViewController *geographyCompassVC = [[TZGeographyCompassViewController alloc] init];
     geographyCompassVC.tabBarItem.tzTitle(@"Geography");
-    [self addChildViewController:geographyCompassVC];
+//    [self addChildViewController:geographyCompassVC];
 }
 
 - (void)setUpTabBar
